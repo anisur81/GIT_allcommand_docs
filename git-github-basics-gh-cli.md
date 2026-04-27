@@ -108,7 +108,7 @@ github.com
   - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
 
 ## Step: 4. Make Git use GitHub CLI automatically
-gh auth setup-git
+$ gh auth setup-git
 
 This configures Git so:
 no manual token entry
@@ -118,20 +118,21 @@ seamless push/pull
 
 ## Step 5: Intall and Initialize Git
 
-$  sudo apt-get install git
+$ sudo apt-get install git
 $ git init
 
 ## Step 6: Configure Git (First Time Only)
 
-git config --list
-git config --global user.name "anisur81"
-git config --global user.email "anisur81@gmail.com"
+$ git config --list
+$ git config --global user.name "anisur81"
+$ git config --global user.email "anisur81@gmail.com"
 
 VS Code as the default Git editor.
-git config --global core.editor "code --wait"
+$ git config --global core.editor "code --wait"
 
 
-administrator@WIN-RJ32TRRFOFP:/mnt/g/WEB_PYTHON/django_proj/portfolio$ git config  --list
+$  cd /mnt/g/WEB_PYTHON/django_proj/portfolio
+$ git config  --list
 user.name=anisur81
 user.email=anisur81@gmail.com
 core.editor=code --wait
@@ -150,14 +151,14 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 
 ## Step 6: Add and Commit Files
  
-git add .
-git commit -m "Initial commit"
+$ git add .
+$ git commit -m "Initial commit"
 
 ## Step 7: Add GitHub Remote
 
 Copy your repo HTTPS URL from GitHub, then run:
 
-git remote add origin https://github.com/anisur81/devsecops-portfolio.git
+$ git remote add origin https://github.com/anisur81/devsecops-portfolio.git
 
 ## Step 8: Set Main Branch
 git branch -M main
@@ -179,31 +180,31 @@ To https://github.com/anisur81/devsecops-portfolio.git
 ## Step 10: Future Updates
 After changes:
 
-git add .
-git commit -m "Updated project"
-git push
+$ git add .
+$ git commit -m "Updated project"
+$ git push origin main
 
 ## If Remote Already Exists
 Check Current Remote
-git remote -v
+$ git remote -v
 
-git remote remove origin
-git remote add origin https://github.com/yourusername/my-devsecops-portfolio.git
+$ git remote remove origin
+$ git remote add origin https://github.com/yourusername/my-devsecops-portfolio.git
 
 ## Clear Wrong Cached Credentials (Windows / WSL Common)
 
 Because you're using Windows + WSL path (/mnt/g/...), old credentials may be cached.
 
 Run:
-git config --global --unset credential.helper
+$ git config --global --unset credential.helper
   
-git remote set-url origin <url>
+$ git remote set-url origin <url>
 ## Meaning:
 
 ### You are changing an existing remote URL  
 
-git remote set-url origin https://github.com/anisur81/devsecops-portfolio.git
-git remote -v
+$ git remote set-url origin https://github.com/anisur81/devsecops-portfolio.git
+$ git remote -v
 origin  https://github.com/anisur81/devsecops-portfolio.git (fetch)
 origin  https://github.com/anisur81/devsecops-portfolio.git (push)
 
@@ -214,7 +215,3 @@ origin  https://github.com/anisur81/devsecops-portfolio.git (push)
 * SSH → HTTPS
 * old repo → new repo
 * wrong URL → correct URL
-   
-
-``
-
