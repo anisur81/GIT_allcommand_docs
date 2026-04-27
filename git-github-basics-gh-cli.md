@@ -177,7 +177,8 @@ $ git remote add origin https://github.com/anisur81/devsecops-portfolio.git
 git branch -M main
 
 ## Step 9: Push to GitHub
- 
+
+ ```bash
 $ git push  origin main
 
 Enumerating objects: 117, done.
@@ -189,6 +190,8 @@ Total 117 (delta 37), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (37/37), done.
 To https://github.com/anisur81/devsecops-portfolio.git
  * [new branch]      main -> main
+
+```
 
 ## Step 10: Future Updates
 After changes:
@@ -209,18 +212,20 @@ $ git remote add origin https://github.com/yourusername/my-devsecops-portfolio.g
 Because you're using Windows + WSL path (/mnt/g/...), old credentials may be cached.
 
 Run:
-$ git config --global --unset credential.helper
-  
+$ git config --global --unset credential.helper 
 $ git remote set-url origin <url>
+
 ## Meaning:
 
 ### You are changing an existing remote URL  
 
+```bash
 $ git remote set-url origin https://github.com/anisur81/devsecops-portfolio.git
 $ git remote -v
 origin  https://github.com/anisur81/devsecops-portfolio.git (fetch)
 origin  https://github.com/anisur81/devsecops-portfolio.git (push)
 
+```
 ## set-url command used when:
 
 * You already have a remote named origin
