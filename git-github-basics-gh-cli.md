@@ -134,18 +134,23 @@ $ git config --global core.editor "code --wait"
 $  cd /mnt/g/WEB_PYTHON/django_proj/portfolio
 $ git config  --list
 
+```bash
 user.name=anisur81
 user.email=anisur81@gmail.com
+
 core.editor=code --wait
-credential.https://github.com.helper=
-credential.https://github.com.helper=!/usr/bin/gh auth git-credential
-credential.https://gist.github.com.helper=
-credential.https://gist.github.com.helper=!/usr/bin/gh auth git-credential
 core.repositoryformatversion=0
 core.filemode=false
 core.bare=false
 core.logallrefupdates=true
 core.ignorecase=true
+
+credential.https://github.com.helper=
+credential.https://github.com.helper=!/usr/bin/gh auth git-credential
+
+credential.https://gist.github.com.helper=
+credential.https://gist.github.com.helper=!/usr/bin/gh auth git-credential
+
 remote.origin.url=https://github.com/anisur81/devsecops-portfolio.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 
