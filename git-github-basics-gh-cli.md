@@ -22,6 +22,10 @@ GitHub is a cloud-based platform that acts as a hosting service for Git reposito
 * Git = version control tool
 * GitHub = cloud hosting platform for Git repositories
 
+* Git is a version control system that manages and keeps track of your code. GitHub, on the other hand, 
+is a service that let you host, share, and manage your code files on the internet.
+* GitHub uses Git underneath, and lets you manage your Git repositories or folders easily on its platform.
+* So Git is the actual version control system and GitHub is the platform where you host your code.
 
 ## Preruisite:
 * Git installed
