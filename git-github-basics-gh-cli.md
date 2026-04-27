@@ -154,6 +154,7 @@ credential.https://gist.github.com.helper=!/usr/bin/gh auth git-credential
 remote.origin.url=https://github.com/anisur81/devsecops-portfolio.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 
+```
 
 ## Step 6: Add and Commit Files
  
