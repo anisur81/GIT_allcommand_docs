@@ -133,6 +133,7 @@ $ git config --global core.editor "code --wait"
 
 $  cd /mnt/g/WEB_PYTHON/django_proj/portfolio
 $ git config  --list
+
 user.name=anisur81
 user.email=anisur81@gmail.com
 core.editor=code --wait
