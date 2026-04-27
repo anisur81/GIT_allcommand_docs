@@ -3,7 +3,10 @@
 
 ## What is Git?
 
-Git is a distributed version control system used to track changes in files and manage project history.
+Git is a distributed version control system used to track changes in files and manage project history. It keeps a history of changes, so you can manage and experiment with your work without the fear of losing your progress.
+
+## What is Github?
+GitHub is a cloud-based platform that acts as a hosting service for Git repositories, allowing developers to store, manage, and collaborate on code projects. It provides version control, enabling multiple people to work on the same codebase simultaneously through tools like pull requests, branching, and issue tracking.
 
 ## Why Git?
 
