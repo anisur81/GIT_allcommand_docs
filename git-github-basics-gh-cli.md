@@ -64,6 +64,8 @@ https://github.com/cli/cli/releases/tag/v2.45.0
 Run:
 $ gh auth login
 
+```bash
+
 You’ll see prompts:
 
 Step-by-step answers:
@@ -107,6 +109,8 @@ github.com
   - Token: gho_************************************
   - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
 
+```
+
 ## Step: 4. Make Git use GitHub CLI automatically
 $ gh auth setup-git
 
@@ -123,18 +127,20 @@ $ git init
 
 ## Step 6: Configure Git (First Time Only)
 
+```bash
 $ git config --list
 $ git config --global user.name "anisur81"
 $ git config --global user.email "anisur81@gmail.com"
 
-VS Code as the default Git editor.
-$ git config --global core.editor "code --wait"
+```
 
+VS Code as the default Git editor.
+```bash
+$ git config --global core.editor "code --wait"
 
 $  cd /mnt/g/WEB_PYTHON/django_proj/portfolio
 $ git config  --list
 
-```bash
 user.name=anisur81
 user.email=anisur81@gmail.com
 
